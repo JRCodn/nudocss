@@ -1,0 +1,83 @@
+.today {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px 8px 0px;
+  position: absolute;
+  height: 40px;
+  right: 0px;
+  top: 0px;
+  word-wrap:break-word;
+  background:#FDFAEF;
+  border: 1px solid #FDFAEF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  max-width: 126px;
+}
+.today h3 {
+  color: #7A6809;
+  font-family: Mulish;
+  font-size: 17px;
+  margin:0px;
+  font-weight:400;
+  display:inline-block;
+  word-wrap:break-word;
+  white-space:nowrap;
+}
+
+
+
+.overdue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px 8px 0px;
+  position: absolute;
+  height: 40px;
+  right: 0px;
+  top: 0px;
+  word-wrap:break-word;
+  background:#F9E7E4;
+  border: 1px solid #F9E7E4;
+  box-sizing: border-box;
+  border-radius: 8px;
+  max-width: 126px;
+}
+.overdue h3 {
+color: #962616;
+font-family: Mulish;
+font-size: 17px;
+margin:0px;
+font-weight:400;
+display:inline-block;
+word-wrap:break-word;
+white-space:nowrap;
+}
+
+
+.days {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px 8px 0px;
+position: absolute;
+height: 40px;
+right: 0px;
+top: 0px;
+word-wrap:break-word;
+background:#DDFADD;
+border: 1px solid #DDFADD;
+box-sizing: border-box;
+border-radius: 8px;
+max-width:126px;
+}
+.days h3 {
+color: #126E10;
+font-family: Mulish;
+font-size: 17px;
+margin:0px;
+font-weight:400;
+display:inline-block;
+word-wrap:break-word;
+white-space:nowrap;
+}
